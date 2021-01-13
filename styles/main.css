@@ -30,6 +30,10 @@ a {
     color: #0083e8;
 }
 
+a:hover {
+    color: #0068b9;
+}
+
 b, strong {
     font-weight: 600;
 }
