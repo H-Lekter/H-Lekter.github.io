@@ -28,6 +28,15 @@ h2 {
 
 a {
     color: #0083e8;
+    transition: 1.5s
+}
+
+.cadre a {
+    display: inline-block
+}
+
+.cadre a:hover {
+    background-color: rgba(0, 131, 232, .5)
 }
 
 a:hover {
