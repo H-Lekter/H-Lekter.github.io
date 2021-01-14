@@ -14,18 +14,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    margin-top: 1.3em;
+    font-size: 2em;
 }
 
 a {
     font-size: 150%;
-    color: #0083e8;
-    transition: 0.8s;
+    color: darkmagenta;
+    transition: 0.3s;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0068b9;
+    color: #331144;
     text-decoration: underline;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .cadre a:hover {
-    background-color: rgba(0, 131, 232, .5);
+    background-color: rgba(51, 17, 68, .2);
     color: white;
 }
 
@@ -69,6 +69,11 @@ img {
 }
 
 .bg {
-    padding: 1em;
+    margin: 1em;
+    padding: 1.2em;
     border-radius: 3px;
+}
+
+h1 {
+    font-size: 2.5em;
 }
