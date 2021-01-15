@@ -14,8 +14,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+h1 {
+    font-size: 2.5em;
+}
 h2 {
     font-size: 2em;
+}
+h3 {
+    font-size: 150%;
 }
 
 a {
@@ -39,6 +45,7 @@ a:hover {
 }
 
 .cadre a:hover {
+    color: white;
     background-color: rgba(51, 17, 68, .1);
     text-shadow: 0 0 6px black;
 }
@@ -77,19 +84,8 @@ img {
     border-radius: 3px;
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
 .wobble {
     border: 1px solid black;
     border-radius: 42% 64% 40% 66%;
 }
 
-.bordure {
-
-}
-
-h3 {
-    font-size: 150%;
-}
